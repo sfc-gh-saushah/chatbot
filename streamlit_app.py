@@ -1,6 +1,11 @@
 import streamlit as st
 from openai import OpenAI
 
+import sys
+import streamlit as st
+
+st.write("Python version:", sys.version)
+
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
